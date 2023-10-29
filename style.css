@@ -1,0 +1,106 @@
+body {
+    background: rgb(230, 230, 230);
+    color: rgb (50, 50, 50);
+    font-family: Helvitica;
+    font-size: 17px;
+}
+h1, h2, h3 {
+    font-family: Courier;
+    color: black; 
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-white h1, .card-white h2 {
+  color: #333333;
+}
+
+.card-white p {
+  color: #666666;
+}
+
+.card-white:hover {
+  border: 2px solid #0080FF;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+
+
+}
+
+.card-white{
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+  
+}
+.blue-btn {
+  background-color: #6b72e1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.blue-btn:hover {
+  background-color: black;
+  transform: scale(1.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.list-inline i {
+  font-size: 50px;
+  color:rgb(230, 230, 230);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+}
+
+.list-inline :hover{
+  font-size: 50px;
+  color: black;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
